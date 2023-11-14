@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appendix id="appendix">
+	<title>附录</title>
+	<section>
+		<title>管理学书籍</title>
+		<para>值得一读的管理学书籍</para>
+		<screen>
+		<![CDATA[
+
+		]]>
+		</screen>
+	</section>
+	<section>
+		<title>观点引用过的参考书籍</title>
+		<para>《销售无处不在》 廖敏夫</para>
+		<para>《哈佛商业评论》</para>
+		<para>《番茄工作法图解》</para>
+	</section>
+	<section id="display">
+		<title>职位名称中英文对照</title>
+		<para>management和administration的区别</para>
+		<para>management 管理层 administration 行政部门 </para>
+
+		<para>Positions - IT相关职位名称英文翻译</para>
+		<screen>
+		<![CDATA[
+
+		]]>
+		</screen>
+	</section>
+	<section>
+		<title>名词解释</title>
+
+		<glosslist>
+			<glossentry>
+				<glossterm>产品附加值</glossterm>
+				<glossdef>
+					<para>
+						产品附加值是指通过智力劳动(包括技术、知识产权、管理经验等)、人工加工、设备加工、流通营销等创造的超过原辅材料的价值的增加值，生产环节创造的价值与流通环节创造的价值皆为产品附加值的一部分。其中的高附加值产品指智力创造的价值在附加值中占主要比重，具有较高的价值增长与较高经济效益，商品拥有高额利润。而低附加值产品指非智力创造的价值在附加值中占次要比重。
+					</para>
+				</glossdef>
+			</glossentry>
+			<glossentry>
+				<glossterm>NPS（Net Promoter Score），净推荐值</glossterm>
+				<glossdef>
+					<para>NPS（Net Promoter Score），净推荐值，又称净促进者得分，亦可称口碑，是一种计量某个客户将会向其他人推荐某个企业或服务可能性的指数。它是最流行的顾客忠诚度分析指标，专注于顾客口碑如何影响企业成长。通过密切跟踪净推荐值，企业可以让自己更加成功。</para>
+					<para>净推荐值最早是由贝恩咨询公司客户忠诚度业务的创始人弗雷德里克·雷赫德（Frederick Reichheld）在2003哈佛大学商务回顾文章“你需要致力于增长的一个数字”的文章中提到，随后在他的书“终极疑问：驱动良性利润和真正发展”</para>
+				</glossdef>
+			</glossentry>
+			<glossentry>
+				<glossterm>下沉市场</glossterm>
+				<glossdef>
+					<para>三线以下城市、县镇与农村地区的市场。</para>
+					<para></para>
+				</glossdef>
+			</glossentry>
+		</glosslist>
+
+	</section>
+</appendix>

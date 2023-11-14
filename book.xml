@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- /usr/share/xml/docbook/schema/dtd/5.0/docbook.dtd -->
+<!DOCTYPE subject SYSTEM "/usr/local/Cellar/docbook/5.1_1/docbook/xml/5.0/dtd/docbook.dtd"
+	[
+
+ 	<!ENTITY book.preface.xml 				SYSTEM "book.preface.xml"> 
+ 	<!ENTITY book.info.abstract.xml 		SYSTEM "book.info.abstract.xml"> 
+	<!ENTITY book.appendix.xml		    	SYSTEM "book.appendix.xml">
+	
+	<!ENTITY % common.doctype.entity.xml 	SYSTEM "common/doctype.entity.xml">
+	%common.doctype.entity.xml;
+	
+<!-- 	<!ENTITY % utilities.doctype.entity.xml SYSTEM "Utilities/doctype.entity.xml">
+	%utilities.doctype.entity.xml;
+	
+	<!ENTITY % financial.doctype.entity.xml SYSTEM "Financial/doctype.entity.xml">
+	%financial.doctype.entity.xml;
+	
+	<!ENTITY % marketing.doctype.entity.xml SYSTEM "Marketing/doctype.entity.xml">
+	%marketing.doctype.entity.xml;
+	
+	<!ENTITY % project.doctype.entity.xml 	SYSTEM "Project/doctype.entity.xml">
+	%project.doctype.entity.xml;
+
+	<!ENTITY % workplace.doctype.entity.xml SYSTEM "Workplace/doctype.entity.xml">
+	%workplace.doctype.entity.xml;
+	
+ 	<!ENTITY % hrm.doctype.entity.xml 		SYSTEM "HRM/doctype.entity.xml">
+	%hrm.doctype.entity.xml;
+	
+	<!ENTITY % product.doctype.entity.xml 	SYSTEM "Product/doctype.entity.xml">
+	%product.doctype.entity.xml;
+	
+	<!ENTITY % business.doctype.entity.xml 	SYSTEM "Business/doctype.entity.xml">
+	%business.doctype.entity.xml;
+	
+	<!ENTITY chapter.administration.xml 	SYSTEM "Administration/chapter.administration.xml">
+	<!ENTITY chapter.operation.xml		 	SYSTEM "Operation/chapter.operation.xml"> -->
+	
+] >
+
+<book xml:base="http://netkiller.sourceforge.net/management/" xmlns="http://docbook.org/ns/docbook" xml:lang="zh-cn">
+	<info>
+		<title>峰言疯语扎心话</title>
+		<subtitle>思维/认知/底层逻辑
+			（<?dbtimestamp format="Y"?>
+			版）
+		</subtitle>
+
+		&book.info.author.xml;
+
+		<copyright>
+			<year>
+				2022-<?dbtimestamp format="Y"?>
+			</year>
+			<holder>&HOLDER;
+			</holder>
+		</copyright>
+
+        &book.info.legalnotice.xml;
+		&book.info.abstract.xml;
+
+		<cover>
+			<para role="tagline">Netkiller Management 手札</para>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="images/cover.png" />
+				</imageobject>
+			</mediaobject>
+		</cover>
+		<keywordset>
+			<keyword></keyword>
+		</keywordset>
+	</info>
+
+	&book.dedication.xml;
+    &book.preface.xml;
+	
+<!-- 	&chapter.hrm.xml;
+	&part.project.xml;
+	&part.business.xml;
+    &chapter.workplace.xml; -->
+
+	&book.appendix.xml;
+</book>
