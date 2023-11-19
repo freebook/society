@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<project name="truth" default="usage" basedir=".">
+<project name="society" default="usage" basedir=".">
 
 	<property environment="env" />
 	<property file="build.properties" />
