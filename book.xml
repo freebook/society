@@ -10,9 +10,10 @@
 	<!ENTITY % common.doctype.entity.xml 	SYSTEM "common/doctype.entity.xml">
 	%common.doctype.entity.xml;
 	
-<!-- 	<!ENTITY % utilities.doctype.entity.xml SYSTEM "Utilities/doctype.entity.xml">
-	%utilities.doctype.entity.xml;
+	<!ENTITY chapter.cognition.xml SYSTEM "chapter.cognition.xml">
 	
+<!-- 		
+
 	<!ENTITY % financial.doctype.entity.xml SYSTEM "Financial/doctype.entity.xml">
 	%financial.doctype.entity.xml;
 	
@@ -76,10 +77,7 @@
 	&book.dedication.xml;
     &book.preface.xml;
 	
-<!-- 	&chapter.hrm.xml;
-	&part.project.xml;
-	&part.business.xml;
-    &chapter.workplace.xml; -->
+    &chapter.cognition.xml;
 
 	&book.appendix.xml;
 </book>
