@@ -1,14 +1,18 @@
 = Book Title
-Doc Writer <doc@example.org>
-v2.0.1, 2022-01-15
+Neo <netkiller@.msn.com>
+v0.0.1, 2023-12-15
 :doctype: book
 :front-cover-image: cover.png[,1050,1600]
  
 [preface]
 == Preface
  
+== 教育
+
+include::教育/父母被孩子拿捏.adoc[leveloffset=1]
+
 The story behind the story.
  
-include::chapter-1.adoc[leveloffset=1]
+include::chapter-1.adoc[leveloffset=2]
  
 include::chapter-2.adoc[leveloffset=1]
