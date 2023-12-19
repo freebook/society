@@ -10,6 +10,8 @@ v0.0.1, 2023-12-15
 == 教育
 
 include::教育/父母被孩子拿捏.adoc[leveloffset=1]
+include::教育/怎么理解平庸.adoc[]
+
 
 The story behind the story.
  
