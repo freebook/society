@@ -15,7 +15,7 @@ The story behind the story.
  
 include::chapter-1.adoc[leveloffset=1]
 include::chapter-2.adoc[leveloffset=1]
-
+include::chapter-3.adoc[]
 :leveloffset: 0
 
 [Index]
