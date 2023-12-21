@@ -1,20 +1,22 @@
 = Book Title
 Neo <netkiller@.msn.com>
 v0.0.1, 2023-12-15
+:sectnums:
+:toc:
+:toclevels: 2
 :doctype: book
 :front-cover-image: cover.png[,1050,1600]
  
 [preface]
 == Preface
- 
-== 教育
-
-include::教育/父母被孩子拿捏.adoc[leveloffset=1]
-include::教育/怎么理解平庸.adoc[]
-
-
 The story behind the story.
+
+:leveloffset: 1
  
-include::chapter-1.adoc[leveloffset=2]
- 
+include::chapter-1.adoc[leveloffset=1]
 include::chapter-2.adoc[leveloffset=1]
+
+:leveloffset: 0
+
+[Index]
+= Index
